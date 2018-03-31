@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  unit_tests_deque_t.cpp
+  unit_tests_list_t.cpp
+  unit_tests_stack_t.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library E:\Prog_Projects\School Programs\Y2_S1\Prog\TP3_Prog_SpaceSim\Release\unit_tests_space_sim.lib and object E:\Prog_Projects\School Programs\Y2_S1\Prog\TP3_Prog_SpaceSim\Release\unit_tests_space_sim.exp
+  Generating code
+  All 364 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  unittests_list_t.vcxproj -> E:\Prog_Projects\School Programs\Y2_S1\Prog\TP3_Prog_SpaceSim\Release\unit_tests_space_sim.dll

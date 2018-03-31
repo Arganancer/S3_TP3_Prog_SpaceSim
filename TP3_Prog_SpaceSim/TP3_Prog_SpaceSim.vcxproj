@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8b86a876-b94f-4468-8b49-1a8d19a626a3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TP3_Prog_SpaceSim</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SFML_ROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SFML_ROOT)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SFML_ROOT)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SFML_ROOT)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-main-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;openal32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /d /y $(SFML_ROOT)\bin\Debug\*.* "..\Debug\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-system.lib;sfml-main.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;sfml-window.lib;openal32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /d /y $(SFML_ROOT)\bin\Release\*.* "..\Release\"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="aoe_projectile.cpp" />
+    <ClCompile Include="behavior.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="cockpit.cpp" />
+    <ClCompile Include="component.cpp" />
+    <ClCompile Include="gatling_gun.cpp" />
+    <ClCompile Include="mine.cpp" />
+    <ClCompile Include="mine_launcher_weapon.cpp" />
+    <ClCompile Include="missile.cpp" />
+    <ClCompile Include="missile_launcher.cpp" />
+    <ClCompile Include="nuke.cpp" />
+    <ClCompile Include="nuke_launcher.cpp" />
+    <ClCompile Include="pickupable.cpp" />
+    <ClCompile Include="thruster.cpp" />
+    <ClCompile Include="collidable.cpp" />
+    <ClCompile Include="experience.cpp" />
+    <ClCompile Include="explosion.cpp" />
+    <ClCompile Include="fighter.cpp" />
+    <ClCompile Include="frigate.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="gatling_bullet.cpp" />
+    <ClCompile Include="hull.cpp" />
+    <ClCompile Include="input_manager.cpp" />
+    <ClCompile Include="laser.cpp" />
+    <ClCompile Include="laser_weapon.cpp" />
+    <ClCompile Include="laser_scythe.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="manoeuvre.cpp" />
+    <ClCompile Include="movable.cpp" />
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="overlay.cpp" />
+    <ClCompile Include="particle.cpp" />
+    <ClCompile Include="plasma.cpp" />
+    <ClCompile Include="plasma_weapon.cpp" />
+    <ClCompile Include="player_ship.cpp" />
+    <ClCompile Include="projectile.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="scene_factory.cpp" />
+    <ClCompile Include="scene_game.cpp" />
+    <ClCompile Include="scene_menu.cpp" />
+    <ClCompile Include="scene_menu_end_screen.cpp" />
+    <ClCompile Include="scene_menu_main_menu.cpp" />
+    <ClCompile Include="shield_generator.cpp" />
+    <ClCompile Include="ship.cpp" />
+    <ClCompile Include="ship_hangar.cpp" />
+    <ClCompile Include="star.cpp" />
+    <ClCompile Include="station.cpp" />
+    <ClCompile Include="text.cpp" />
+    <ClCompile Include="user_interface.cpp" />
+    <ClCompile Include="warning_leaving_game_area.cpp" />
+    <ClCompile Include="weapon.cpp" />
+    <ClCompile Include="weapon_factory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aabb_tree_t.hpp" />
+    <ClInclude Include="aoe_projectile.h" />
+    <ClInclude Include="behavior.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="cockpit.h" />
+    <ClInclude Include="component.h" />
+    <ClInclude Include="deque_t.hpp" />
+    <ClInclude Include="pickupable.h" />
+    <ClInclude Include="mine.h" />
+    <ClInclude Include="mine_launcher_weapon.h" />
+    <ClInclude Include="missile.h" />
+    <ClInclude Include="missile_launcher.h" />
+    <ClInclude Include="nuke.h" />
+    <ClInclude Include="nuke_launcher.h" />
+    <ClInclude Include="ship_icon.h" />
+    <ClInclude Include="thruster.h" />
+    <ClInclude Include="experience.h" />
+    <ClInclude Include="explosion.h" />
+    <ClInclude Include="fighter.h" />
+    <ClInclude Include="gatling_bullet.h" />
+    <ClInclude Include="gatling_gun.h" />
+    <ClInclude Include="harpoon.h" />
+    <ClInclude Include="hull.h" />
+    <ClInclude Include="laser.h" />
+    <ClInclude Include="laser_scythe.h" />
+    <ClInclude Include="laser_scythe_weapon.h" />
+    <ClInclude Include="laser_weapon.h" />
+    <ClInclude Include="frigate.h" />
+    <ClInclude Include="list_t.hpp" />
+    <ClInclude Include="collidable.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="g_vars.hpp" />
+    <ClInclude Include="input_manager.h" />
+    <ClInclude Include="manoeuvre.h" />
+    <ClInclude Include="movable.h" />
+    <ClInclude Include="npc.h" />
+    <ClInclude Include="overlay.h" />
+    <ClInclude Include="particle.h" />
+    <ClInclude Include="plasma.h" />
+    <ClInclude Include="plasma_weapon.h" />
+    <ClInclude Include="player_ship.h" />
+    <ClInclude Include="projectile.h" />
+    <ClInclude Include="scene_factory.h" />
+    <ClInclude Include="scene_game.h" />
+    <ClInclude Include="scene_menu.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="scene_menu_end_screen.h" />
+    <ClInclude Include="scene_menu_main_menu.h" />
+    <ClInclude Include="shield_generator.h" />
+    <ClInclude Include="ship.h" />
+    <ClInclude Include="ship_hangar.h" />
+    <ClInclude Include="stack_t.hpp" />
+    <ClInclude Include="star.h" />
+    <ClInclude Include="station.h" />
+    <ClInclude Include="text.h" />
+    <ClInclude Include="tools.hpp" />
+    <ClInclude Include="type_weapon.h" />
+    <ClInclude Include="user_interface.h" />
+    <ClInclude Include="warning_leaving_game_area.h" />
+    <ClInclude Include="weapon.h" />
+    <ClInclude Include="weapon_factory.h" />
+    <ClInclude Include="weapon_icon.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

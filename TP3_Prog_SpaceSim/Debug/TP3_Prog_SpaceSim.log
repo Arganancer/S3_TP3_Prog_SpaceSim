@@ -1,0 +1,102 @@
+﻿  weapon_factory.cpp
+  weapon.cpp
+  warning_leaving_game_area.cpp
+  user_interface.cpp
+  text.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\text.cpp(112): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\text.cpp(115): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\text.cpp(134): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  station.cpp
+  star.cpp
+  ship_hangar.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\ship_hangar.cpp(74): warning C4018: '<': signed/unsigned mismatch
+  ship.cpp
+  shield_generator.cpp
+  scene_menu_main_menu.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\scene_menu_main_menu.cpp(54): warning C4018: '<': signed/unsigned mismatch
+  scene_menu_end_screen.cpp
+  scene_menu.cpp
+  scene_game.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\scene_game.cpp(26): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\scene_game.cpp(28): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\scene_game.cpp(40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\scene_game.cpp(41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\scene_game.cpp(84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  scene_factory.cpp
+  scene.cpp
+  projectile.cpp
+  player_ship.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(17): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(18): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(22): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(23): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(24): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(130): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(131): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(135): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(136): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\player_ship.cpp(137): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  plasma_weapon.cpp
+  plasma.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\plasma.cpp(41): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\plasma.cpp(68): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+  Generating Code...
+  Compiling...
+  particle.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\particle.cpp(8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  overlay.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\overlay.cpp(6): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  npc.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\npc.cpp(90): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  movable.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\movable.cpp(97): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  manoeuvre.cpp
+  Main.cpp
+  laser_scythe.cpp
+  laser_weapon.cpp
+  laser.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\laser.cpp(37): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+  input_manager.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\input_manager.cpp(193): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  hull.cpp
+  gatling_bullet.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\gatling_bullet.cpp(36): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+  game.cpp
+  frigate.cpp
+  fighter.cpp
+  explosion.cpp
+  experience.cpp
+  collidable.cpp
+  thruster.cpp
+  pickupable.cpp
+  Generating Code...
+  Compiling...
+  nuke_launcher.cpp
+  nuke.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\nuke.cpp(41): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\nuke.cpp(68): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+  missile_launcher.cpp
+  missile.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\missile.cpp(41): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\missile.cpp(68): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+  mine_launcher_weapon.cpp
+  mine.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\mine.cpp(38): warning C4244: '=': conversion from 'float' to 'sf::Uint8', possible loss of data
+  gatling_gun.cpp
+  component.cpp
+  cockpit.cpp
+  button.cpp
+  behavior.cpp
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\behavior.cpp(53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\behavior.cpp(71): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\behavior.cpp(151): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\behavior.cpp(168): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\behavior.cpp(261): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\behavior.cpp(278): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\behavior.cpp(371): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\prog_projects\school programs\y2_s1\prog\tp3_prog_spacesim\tp3_prog_spacesim\behavior.cpp(388): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  aoe_projectile.cpp
+  Generating Code...
+  TP3_Prog_SpaceSim.vcxproj -> E:\Prog_Projects\School Programs\Y2_S1\Prog\TP3_Prog_SpaceSim\Debug\TP3_Prog_SpaceSim.exe
+  TP3_Prog_SpaceSim.vcxproj -> E:\Prog_Projects\School Programs\Y2_S1\Prog\TP3_Prog_SpaceSim\Debug\TP3_Prog_SpaceSim.pdb (Partial PDB)
+  0 File(s) copied

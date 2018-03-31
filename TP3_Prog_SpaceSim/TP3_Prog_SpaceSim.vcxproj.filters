@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\scenes">
+      <UniqueIdentifier>{c210f80c-3c0c-452c-b266-d6a73545e8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\scenes">
+      <UniqueIdentifier>{979e3dff-2bf6-47b0-9be0-f7104f6a3921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\templates">
+      <UniqueIdentifier>{d55a0910-fb51-4728-aaf4-3b8715feef6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\tools">
+      <UniqueIdentifier>{65ef654a-4b15-4407-b635-116150f2acb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables">
+      <UniqueIdentifier>{168ac6ad-b67e-49b5-80be-fa538290387c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables\particles">
+      <UniqueIdentifier>{29c06755-3b37-44fd-87ca-cbba7fa1854e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables\collidables">
+      <UniqueIdentifier>{3ce0101f-7161-4d9d-b19c-3f9b6af97994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables\collidables\ships">
+      <UniqueIdentifier>{ec44557c-5ba0-4c88-bb0c-c69486d2d7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables\collidables\ships\npcs">
+      <UniqueIdentifier>{d5ff7771-0ee6-4982-8a66-40b92935ff12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables\collidables\ships\npcs\AI">
+      <UniqueIdentifier>{a280fcf5-3de7-45c6-919e-f3c3785e4351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables\collidables\ships\components">
+      <UniqueIdentifier>{422d1651-31c4-4ff4-81cf-1f631ef9b084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables\collidables\ships\components\weapons">
+      <UniqueIdentifier>{619728f7-97ea-4301-9a04-868dceccb177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles">
+      <UniqueIdentifier>{5ddaeb99-3724-419c-8f3b-8d7125043e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables">
+      <UniqueIdentifier>{b0a2bfe0-4296-4962-b522-b24879c52892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables\particles">
+      <UniqueIdentifier>{491be89f-d74e-4597-ad54-73d493ff9117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables\collidables">
+      <UniqueIdentifier>{19bae1e0-1678-4fcd-976a-ccb41a0e1723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables\collidables\ships">
+      <UniqueIdentifier>{24dfa55e-f6b6-4ac4-918b-ab3a557b2b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables\collidables\ships\npcs">
+      <UniqueIdentifier>{0a9edb53-ca79-4388-bb31-deb676942174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables\collidables\ships\npcs\ai">
+      <UniqueIdentifier>{403ae2a7-76f0-43bf-a652-30a266ab2619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables\collidables\ships\components">
+      <UniqueIdentifier>{dd341e5a-adec-40ab-b9af-50c184ebbedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables\collidables\ships\components\weapons">
+      <UniqueIdentifier>{71353026-a3f7-4aae-af5a-08cd23ef0e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\movables\collidables\ships\components\weapons\projectiles">
+      <UniqueIdentifier>{f541d5a3-2f39-4038-8ef0-bb9b60e53bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ui">
+      <UniqueIdentifier>{c56c67d6-4281-4df1-943e-49ebfc53d4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ui">
+      <UniqueIdentifier>{8e0fa879-da21-4164-a2a6-618001688262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ui\overlays">
+      <UniqueIdentifier>{a7df6332-da81-4d44-a251-cbe63003a83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ui\overlays">
+      <UniqueIdentifier>{b145fbd8-39c4-402e-91fb-0c797dc65256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\ui\interface_tools">
+      <UniqueIdentifier>{9db76dc6-3205-4b6f-abd8-b3f0b6c320b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ui\interface_tools">
+      <UniqueIdentifier>{bfce0290-a4ff-4209-a14f-7090f4df8171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_game.cpp">
+      <Filter>Fichiers sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_menu.cpp">
+      <Filter>Fichiers sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Fichiers sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_factory.cpp">
+      <Filter>Fichiers sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_menu_end_screen.cpp">
+      <Filter>Fichiers sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_menu_main_menu.cpp">
+      <Filter>Fichiers sources\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Fichiers sources\ui\interface_tools</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>Fichiers sources\ui\interface_tools</Filter>
+    </ClCompile>
+    <ClCompile Include="input_manager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="movable.cpp">
+      <Filter>Fichiers sources\movables</Filter>
+    </ClCompile>
+    <ClCompile Include="star.cpp">
+      <Filter>Fichiers sources\movables</Filter>
+    </ClCompile>
+    <ClCompile Include="ship.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships</Filter>
+    </ClCompile>
+    <ClCompile Include="player_ship.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="behavior.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\npcs\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="frigate.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon_factory.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="laser_weapon.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Fichiers sources\movables\particles</Filter>
+    </ClCompile>
+    <ClCompile Include="projectile.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="laser.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="plasma_weapon.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="plasma.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="station.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="fighter.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="gatling_bullet.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="laser_scythe.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="aoe_projectile.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="experience.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\npcs\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="manoeuvre.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\npcs\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components</Filter>
+    </ClCompile>
+    <ClCompile Include="hull.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components</Filter>
+    </ClCompile>
+    <ClCompile Include="shield_generator.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components</Filter>
+    </ClCompile>
+    <ClCompile Include="ship_hangar.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components</Filter>
+    </ClCompile>
+    <ClCompile Include="thruster.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components</Filter>
+    </ClCompile>
+    <ClCompile Include="collidable.cpp">
+      <Filter>Fichiers sources\movables\collidables</Filter>
+    </ClCompile>
+    <ClCompile Include="cockpit.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components</Filter>
+    </ClCompile>
+    <ClCompile Include="gatling_gun.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="mine.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="mine_launcher_weapon.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="missile.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="missile_launcher.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="nuke_launcher.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="nuke.cpp">
+      <Filter>Fichiers sources\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="warning_leaving_game_area.cpp">
+      <Filter>Fichiers sources\ui\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cpp">
+      <Filter>Fichiers sources\ui\overlays</Filter>
+    </ClCompile>
+    <ClCompile Include="user_interface.cpp">
+      <Filter>Fichiers sources\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="pickupable.cpp">
+      <Filter>Fichiers sources\movables\collidables</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_game.h">
+      <Filter>Fichiers d%27en-tête\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_menu.h">
+      <Filter>Fichiers d%27en-tête\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Fichiers d%27en-tête\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_factory.h">
+      <Filter>Fichiers d%27en-tête\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_menu_main_menu.h">
+      <Filter>Fichiers d%27en-tête\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_menu_end_screen.h">
+      <Filter>Fichiers d%27en-tête\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="g_vars.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Fichiers d%27en-tête\ui\interface_tools</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>Fichiers d%27en-tête\ui\interface_tools</Filter>
+    </ClInclude>
+    <ClInclude Include="input_manager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="movable.h">
+      <Filter>Fichiers d%27en-tête\movables</Filter>
+    </ClInclude>
+    <ClInclude Include="player_ship.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships</Filter>
+    </ClInclude>
+    <ClInclude Include="star.h">
+      <Filter>Fichiers d%27en-tête\movables</Filter>
+    </ClInclude>
+    <ClInclude Include="ship.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships</Filter>
+    </ClInclude>
+    <ClInclude Include="list_t.hpp">
+      <Filter>Fichiers d%27en-tête\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="behavior.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\npcs\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="experience.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\npcs\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="frigate.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="stack_t.hpp">
+      <Filter>Fichiers d%27en-tête\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="type_weapon.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon_factory.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="laser_weapon.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Fichiers d%27en-tête\movables\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="projectile.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="laser.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="deque_t.hpp">
+      <Filter>Fichiers d%27en-tête\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="laser_scythe_weapon.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="plasma_weapon.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="gatling_gun.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="plasma.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="station.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="fighter.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb_tree_t.hpp">
+      <Filter>Fichiers d%27en-tête\templates</Filter>
+    </ClInclude>
+    <ClInclude Include="gatling_bullet.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="harpoon.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="laser_scythe.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="aoe_projectile.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="manoeuvre.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\npcs\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.hpp">
+      <Filter>Fichiers d%27en-tête\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ship_hangar.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components</Filter>
+    </ClInclude>
+    <ClInclude Include="hull.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components</Filter>
+    </ClInclude>
+    <ClInclude Include="shield_generator.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components</Filter>
+    </ClInclude>
+    <ClInclude Include="thruster.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components</Filter>
+    </ClInclude>
+    <ClInclude Include="collidable.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables</Filter>
+    </ClInclude>
+    <ClInclude Include="cockpit.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components</Filter>
+    </ClInclude>
+    <ClInclude Include="missile.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="mine.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="mine_launcher_weapon.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="nuke_launcher.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="missile_launcher.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="nuke.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables\ships\components\weapons\projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="user_interface.h">
+      <Filter>Fichiers d%27en-tête\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.h">
+      <Filter>Fichiers d%27en-tête\ui\overlays</Filter>
+    </ClInclude>
+    <ClInclude Include="warning_leaving_game_area.h">
+      <Filter>Fichiers d%27en-tête\ui\overlays</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon_icon.h">
+      <Filter>Fichiers d%27en-tête\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ship_icon.h">
+      <Filter>Fichiers d%27en-tête\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="pickupable.h">
+      <Filter>Fichiers d%27en-tête\movables\collidables</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
